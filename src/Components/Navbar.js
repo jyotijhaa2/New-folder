@@ -8,12 +8,12 @@ import {Link} from "react-router-dom";
         <div className='container'>
         <div className='nav-container' >
             <ul className='topnav'>
-            <li>Home</li>
-                <Link to="/"></Link>
-                <li> Bollywood
-                              <Link to="/SecondPage.js"></Link>
+            <li></li>
+                <Link to="/">Home</Link>
+                <li> 
+                              <Link to="/SecondPage">Bollywood</Link>
                    </li>
-                <li>Technology
+                <li><Link to="/ThirdPage">Technology</Link>
                 </li>
                 <li>Hollywood</li>
                 <li>Fitness</li>
