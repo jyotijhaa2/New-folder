@@ -8,10 +8,11 @@ import {Link} from "react-router-dom";
         <div className='container'>
         <div className='nav-container' >
             <ul className='topnav'>
-            <li></li>
+            <li>
                 <Link to="/">Home</Link>
+            </li>
                 <li> 
-                              <Link to="/SecondPage">Bollywood</Link>
+                     <Link to="/SecondPage">Bollywood</Link>
                    </li>
                 <li><Link to="/ThirdPage">Technology</Link>
                 </li>
