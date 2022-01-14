@@ -31,9 +31,9 @@ function App() {
 
               <Route  path="/" element={<Home />} />
 
-              <Route  path="/Page2" element={<Page2 />} />
+              <Route  exact path="/SecondPage" element={<Page2 />} />
 
-              <Route  path="/Page3" element={<Page3 />} />
+              <Route exact path="/ThirdPage" element={<Page3 />} />
               
 
 
