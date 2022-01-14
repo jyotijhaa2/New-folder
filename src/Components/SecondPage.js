@@ -213,9 +213,8 @@ import {Link} from "react-router-dom";
 
 <div className="footer">
         <div className="all-pages"> 
-            <p> <Link to={"./Home"}><i className="fa fa-home" style={{fontSize: "30px"}}></i></Link><Link to={"./ThirdPage.js"} > <i className="fa fa-angle-left" style={{fontSize: "30px"}}></i> </Link>  2 of 7 <Link to={"./ThirdPage.js"}><i className="fa fa-angle-right" style={{fontSize: "30px"}}></i></Link></p>
+            <p> <Link to={"./"}><i className="fa fa-home" style={{fontSize: "30px"}}></i></Link><Link to={"./"} > <i className="fa fa-angle-left" style={{fontSize: "30px"}}></i> </Link>  2 of 7 <Link to={"./ThirdPage"}><i className="fa fa-angle-right" style={{fontSize: "30px"}}></i></Link></p>
         </div>
-
     </div>
 
     {/* </footer> */}
